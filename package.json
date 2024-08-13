@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:frontend": "node scripts/dev/build.js --dir=frontend/website",
-    "build:admin": "node scripts/dev/build.js --dir=frontend/admin",
+    "build:frontend": "node scripts/dev/build.js --dir=frontend/YOUR_REACT_APP_HERE",
     "build:generate:types": "php cli.php @build/generate-types --sourceType=ts --outputDir=frontend/api"
   },
   "author": "",
