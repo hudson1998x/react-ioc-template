@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e918eeeb6947c957e731655c6f61a04",
+    "packages": [
+        {
+            "name": "hudsxn/ioc-core",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../website-core",
+                "reference": "f42d9b219820a780bbfc3ae5eadb846e10273308"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hudsxn\\IocCore\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Hudson"
+                }
+            ],
+            "description": "A simple IOC framework for rapid API development, great for microservices",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

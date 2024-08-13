@@ -1,0 +1,25 @@
+{
+    "name": "sitescore/backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hudson1998x",
+            "email": "jhudsonjejames@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hudsxn/ioc-core": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path", 
+            "url": "../website-core"
+        }
+    ]
+}
