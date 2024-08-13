@@ -14,12 +14,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "hudsxn/ioc-core": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "path", 
-            "url": "../website-core"
-        }
-    ]
+        "hudsxn/ioc-core": "1.0.1"
+    }
 }
