@@ -4,7 +4,7 @@
     
     use Hudsxn\IocCore\Application;
 
-    // this will be the UI that makes everything happen
+    // all cli commands should come through here. 
 
     $app = new Application("src", "cli", function() {
         
